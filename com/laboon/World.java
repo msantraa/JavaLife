@@ -1,9 +1,9 @@
-package com.laboon;
+package deliverable4;
 
 import java.util.Random;
 
 public class World {
-
+	
 	/**
 	 * Size of the world
 	 */
@@ -114,6 +114,24 @@ public class World {
 	 * @return String representation of world
 	 */
 	
+	/*public String toString() {
+		String toReturn = "  ";
+		for (int j= 0; j < _size; j++) {
+			toReturn += String.valueOf(j % 10);
+		}
+		toReturn += "\n";
+		for (int j = 0; j < _size; j++ ) {
+			toReturn += String.valueOf(j % 10) + " ";
+			for (int k = 0; k < _size; k++) {
+				toReturn += (_world[j][k].getStateRep());
+			}
+			toReturn += "\n";
+		}
+		return toReturn;
+	}*/
+	
+	//Refactoring
+	
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("  ");
@@ -151,4 +169,5 @@ public class World {
 		return world;
 	}
 	
+
 }
