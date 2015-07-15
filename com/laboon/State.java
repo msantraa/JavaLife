@@ -1,4 +1,4 @@
-package com.laboon;
+package deliverable4;
 
 /**
  * Possible states of a cell, either ALIVE or DEAD
